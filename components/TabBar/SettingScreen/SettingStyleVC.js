@@ -1,0 +1,130 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  view1: {
+    flex: 1,
+    backgroundColor: '#2B3252',
+  },
+  view2: {
+    height: 200,
+    width: '100%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#2B3252',
+  },
+  view4: {
+    height: 130,
+    width: '100%',
+    marginTop: 10,
+  },
+  view5: {
+    height: '100%',
+    width: '100%',
+    marginTop: 5,
+  },
+  view6: {
+    height: 50,
+    width: '100%',
+    backgroundColor: '#2B3252',
+    borderBottomWidth: 1,
+    borderBottomColor: '#D5A253',
+    flexDirection: 'row',
+  },
+  logoutBtn: {
+    marginRight: 10,
+  },
+  logoutBtnText: {
+    color: '#E5E5E5',
+    fontSize: 20,
+    fontWeight: '500',
+  },
+  switchBtn: {
+    position: 'absolute',
+    right: '0%',
+    marginTop: 10,
+    marginRight: 10,
+  },
+  text1: {
+    color: '#D5A253',
+    fontSize: 25,
+    fontWeight: '700',
+    marginTop: 10,
+  },
+  text2: {
+    color: '#D5A253',
+    fontSize: 20,
+    fontWeight: '700',
+    marginTop: '2%',
+    marginLeft: '2%',
+  },
+  text3: {
+    color: 'gray',
+    fontSize: 15,
+    fontWeight: '500',
+    marginTop: 5,
+  },
+  text4: {
+    color: '#E5E5E5',
+    fontSize: 18,
+    fontWeight: '500',
+    marginTop: 13,
+    marginLeft: 10,
+  },
+  text5: {
+    color: '#e5e5e5',
+    fontSize: 16,
+    fontWeight: '500',
+    marginTop: 13,
+    marginLeft: 10,
+  },
+  img1: {
+    height: 120,
+    width: 120,
+    borderRadius: 60,
+  },
+  img2: {
+    height: 40,
+    width: 40,
+  },
+  img3: {
+    height: 25,
+    width: 25,
+    marginTop: 10,
+    marginLeft: 10,
+    tintColor: '#936A4A',
+  },
+  img4: {
+    height: 120,
+    width: 120,
+  },
+  img5: {
+    height: 24,
+    width: 22,
+    marginTop: 12,
+    marginLeft: 10,
+    tintColor: '#936A4A',
+  },
+  Card1: {
+    height: 110,
+    width: 120,
+    marginRight: 10,
+    marginLeft: 5,
+    marginTop: 10,
+    alignItems: 'center',
+  },
+  Cardview1: {
+    height: 70,
+    width: 70,
+    backgroundColor: 'white',
+    borderRadius: 50,
+    marginTop: 5,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  indicator: {
+    flex: 1,
+    backgroundColor: '#2B3252',
+    justifyContent: 'center',
+    flexDirection: 'column',
+  },
+});

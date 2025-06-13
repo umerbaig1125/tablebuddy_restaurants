@@ -1,0 +1,237 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  view1: {
+    flex: 1,
+    backgroundColor: '#2B3252',
+  },
+  text1: {
+    color: '#D5A253',
+    fontSize: 20,
+    fontWeight: '800',
+    alignSelf: 'center',
+    textAlign: 'center',
+    width: '70%',
+    marginTop: 20,
+  },
+  view5: {
+    width: '100%',
+    height: 50,
+    flexDirection: 'row',
+  },
+  view10: {
+    height: 60,
+    width: '95%',
+    marginTop: 20,
+    borderBottomWidth: 1,
+    borderColor: '#E5E5E5',
+    alignSelf: 'center',
+  },
+  view101: {
+    width: '95%',
+    marginTop: 20,
+    borderBottomWidth: 1,
+    borderColor: '#E5E5E5',
+    alignSelf: 'center',
+  },
+  view111: {
+    width: '100%',
+    marginBottom: 10,
+    marginTop: 5,
+  },
+  view11: {
+    width: '95%',
+    marginTop: 10,
+    alignSelf: 'center',
+  },
+  view12: {
+    width: '95%',
+    marginTop: 20,
+    borderBottomWidth: 1,
+    borderColor: '#E5E5E5',
+    alignSelf: 'center',
+  },
+  text3: {
+    color: '#D5A253',
+    fontSize: 20,
+    fontWeight: '800',
+    marginTop: 20,
+    marginLeft: 20,
+  },
+  input4: {
+    height: 50,
+    width: '30%',
+    borderBottomWidth: 1,
+    borderColor: '#E5E5E5',
+    alignSelf: 'center',
+    textAlign: 'center',
+    marginLeft: 20,
+    fontSize: 18,
+    color: '#E5E5E5',
+  },
+
+  text33: {
+    color: '#D5A253',
+    fontSize: 17,
+    fontWeight: '600',
+  },
+
+  input6: {
+    height: 40,
+    width: '100%',
+    fontSize: 16,
+    color: '#E5E5E5',
+  },
+  View11: {
+    height: 35,
+    width: '100%',
+  },
+  view6: {
+    width: '95%',
+    height: 60,
+    marginTop: 20,
+    flexDirection: 'row',
+    alignSelf: 'center',
+  },
+  view7: {
+    width: '50%',
+    height: '100%',
+  },
+  text4: {
+    color: '#D5A253',
+    fontSize: 20,
+    fontWeight: '800',
+  },
+  input5: {
+    height: 40,
+    width: '95%',
+    fontSize: 16,
+    color: '#E5E5E5',
+    borderBottomWidth: 1,
+    borderColor: '#E5E5E5',
+    marginTop: 5,
+  },
+
+  view8: {
+    width: '100%',
+    height: 30,
+    flexDirection: 'row',
+    marginLeft: 20,
+    marginTop: 20,
+  },
+  text5: {
+    color: '#D5A253',
+    fontSize: 20,
+    fontWeight: '800',
+  },
+  text6: {
+    fontSize: 16,
+    color: '#E5E5E5',
+    marginTop: 10,
+  },
+  text66: {
+    fontSize: 16,
+    color: '#E5E5E5',
+  },
+  input3: {
+    width: '100%',
+    marginTop: 5,
+    fontSize: 16,
+    color: '#E5E5E5',
+    marginBottom: 10,
+  },
+  text2: {
+    color: '#D5A253',
+    fontSize: 20,
+    fontWeight: '800',
+    width: '70%',
+    marginTop: 20,
+    marginLeft: 20,
+    marginBottom: 10,
+  },
+  view9: {
+    width: '100%',
+    height: 50,
+    flexDirection: 'row',
+    marginTop: 20,
+  },
+  checkboxtext: {
+    color: '#e5e5e5',
+    fontWeight: '600',
+  },
+  checkbox: {
+    width: '20%',
+    marginTop: 20,
+  },
+
+  checkbox1: {
+    width: '80%',
+    marginTop: 20,
+  },
+  img2: {
+    width: 30,
+    height: 30,
+    tintColor: '#936A4A',
+  },
+  nextBtn: {
+    height: 50,
+    width: '70%',
+    backgroundColor: '#936A4A',
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+    alignSelf: 'center',
+    marginTop: 10,
+    marginBottom: 20,
+    shadowOffset: { width: 8, height: 8 },
+    shadowColor: 'black',
+    shadowOpacity: 0.5,
+    shadowRadius: 5,
+    //elevation: 8,
+  },
+  nextBtntext: {
+    color: 'white',
+    fontSize: 20,
+    fontWeight: '700',
+  },
+  timePickerStyle: {
+    backgroundColor: 'white',
+    width: '100%',
+    borderTopWidth: 1,
+    borderColor: 'gray',
+    position: 'absolute',
+    bottom: 0,
+  },
+  donebtnText: {
+    color: '#FF5F5F',
+    fontSize: 20,
+    fontWeight: '800',
+  },
+  donebtn: {
+    width: 60,
+    height: 30,
+    marginTop: 10,
+    marginLeft: 10,
+  },
+  checkbox3: {
+    width: 120,
+  },
+  indicator: {
+    flex: 1,
+    backgroundColor: '#2B3252',
+    justifyContent: 'center',
+    flexDirection: 'column',
+  },
+  pickerStyle: {
+    width: '100%',
+    color: '#344953',
+    justifyContent: 'center',
+  },
+  SaveBtntext: {
+    color: '#E5E5E5',
+    fontSize: 20,
+    fontWeight: '500',
+    marginRight: 10,
+  },
+
+});
